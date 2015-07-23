@@ -29,6 +29,8 @@
 }
 #section0 p {
     color: #0399A1;
+    margin: 0;
+    font-size: 1.5em;
 }
 #section3 p {
     color: #00A3AF;
@@ -46,7 +48,7 @@
 }
 .intro-top {
     position: absolute;
-    top: 90%;
+    top: 85%;
     width: 100%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
