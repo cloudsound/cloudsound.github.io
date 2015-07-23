@@ -8,23 +8,23 @@
     background-position: 50% 50%;
 }
 #section0 {
-    background-image: url(../images/bg1.jpg);
+    background-image: url(http://7xk9uj.com1.z0.glb.clouddn.com/bg1.jpg);
     color: #fff;
     text-shadow: 1px 1px 1px #333;
 }
 #section1 {
     color: #fff;
     text-shadow: 1px 1px 1px #333;
-    background-image: url(../images/bg2.jpg);
+    background-image: url(http://7xk9uj.com1.z0.glb.clouddn.com/bg2.jpg);
 }
 #section2 {
-    background-image: url(../images/bg3.jpg);
+    background-image: url(http://7xk9uj.com1.z0.glb.clouddn.com/bg3.jpg);
     color: #fff;
     text-shadow: 1px 1px 1px #666;
 }
 #section3 {
     color: #008283;
-    background-image: url(../images/bg4.jpg);
+    background-image: url(http://7xk9uj.com1.z0.glb.clouddn.com/bg4.jpg);
     text-shadow: 1px 1px 1px #fff;
 }
 #section0 p {
@@ -102,10 +102,10 @@
     z-index: 1;
 }
 .section .info .photo1 {
-    background-image: url(../images/gao.png);
+    background-image: url(http://7xk9uj.com1.z0.glb.clouddn.com/gao.png);
 }
 .section .info .photo2 {
-    background-image: url(../images/feng.jpg);
+    background-image: url(http://7xk9uj.com1.z0.glb.clouddn.com/feng.jpg);
 }
 .section .info .info-box {
     padding: 10px;
@@ -115,7 +115,7 @@
     overflow: hidden;
     border-radius: 10px;
     background-size: cover;
-    background-image: url(../images/bg-tra.png);
+    background-image: url(http://7xk9uj.com1.z0.glb.clouddn.com/bg-tra.png);
     zoom: 1
 }
 .section .info .info-box h2 {
