@@ -95,8 +95,9 @@
             height: 180px;
             border: 2px solid #fff;
             border-radius: 50%;
-                -webkit-border-radius: 51px;
-                -moz-border-radius: 51px;
+                -webkit-border-radius: 50%;
+                -khtml-border-radius:50%;
+                -moz-border-radius: 50%;
             background: #fff no-repeat center;
             background-size: cover;
             left: 20px;
