@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>页面切换</title>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+	<div id="container">
+		<div class="section active" id="section0">
+			<div class="intro-top">
+				<h1 class="title"> CLOUD•SOUND 云•声</h1>
+				<p>爱音乐的Front-Ender</p>
+			</div>
+		</div>
+		<div class="section" id="section1">
+			<div class="intro-right">
+				<!--  <h1 class="title">浩子</h1>
+								<p>现实像块石头，精神像个蛋，石头虽然坚硬，可蛋里才是生命。</p>  -->
+
+				<!-- <section class="present" style="top: -337px; display: block;">
+	                <img id="avatar" src="img/avatar3.png" alt="avatar">
+	                <h2 id="name">高浩阳</h2>
+	                <h4>希望做一个前端开发工程师</h4>
+	                <small>很喜欢崔健的歌词：现实像块石头，精神像个蛋，石头虽然坚硬，可蛋里才是生命</small>
+	                <p><a target="_blank" href="mailto:gaohaoyang126@126.com">gaohaoyang126@126.com</a></p>
+				 </section> -->
+
+				<div class="info ">
+					<a class="info-tou photo1" href="http://github.gaohaoyang.io"></a>
+					<div class="info-box">
+						<h2>浩阳</h2>
+						<div class="info-text">
+							<p>主唱，吉他手，在校研究生一枚，热爱美好的事物，热爱摇滚乐，组过乐队，卖过唱。
+							</p>
+							<p>
+								很喜欢崔健的歌词：现实像块石头，精神像个蛋，石头虽然坚硬，可蛋里才是生命。
+							</p>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		<div class="section" id="section2">
+			<div class="intro-left">
+				<!-- <h1 class="title">Example</h1>
+				<p>The plug-in configuration parameters</p> -->
+				
+				<div class="info ">
+					<a class="info-tou photo2" href="http://github.gaohaoyang.io"></a>
+					<div class="info-box">
+						<h2>沐风</h2>
+						<div class="info-text">
+								<p>尤克里里，伪键盘手，在校研究生一枚，爱好所有美好新奇的事物。
+							</p>
+							<p>
+								
+							</p>
+						</div>
+						
+					</div>
+					
+				</div>
+
+			</div>
+		</div>
+		<div class="section" id="section3">
+			<div class="intro">
+				<h1 class="title"> DAY DAY UP</h1>
+				<p>The Front-End way ahead is long and has no ending,Yet our climb will be steep. </p>
+			</div>
+			<div class="intro-bottom">
+				<p>Copyright ©2015 CloudSound All Rights Reserved</p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/pageswitch.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#container").switchPage({
+				'loop' : true,
+				'keyboard' : true,
+				'direction' : 'vertical'
+			});
+		});
+	</script>
+</body>
+</html>
