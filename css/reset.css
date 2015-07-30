@@ -17,11 +17,27 @@ p {
     font-size: 2em;
     margin: 0.5em 0 0.5em 0;
 }
-small{
+small {
     font-size: 0.6em;
     margin-left: 10px;
 }
-small a{
+a:link {
     text-decoration: none;
-    color: 
+    color: #A5B372;
+    transition: 0.1s ease-in;
+    -webkit-transition: 0.1s ease-in;
+    -moz-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+}
+a:visited {
+    text-decoration: none;
+    color: #A5B372;
+}
+a:hover {
+    text-decoration: none;
+    color: #B6CB67;
+}
+a:active {
+    text-decoration: none;
+    color: #8F9C5F;
 }
